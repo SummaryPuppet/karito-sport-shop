@@ -30,19 +30,23 @@ export default function Search(){
     inputElement: inputRef.current
   })
 
+  const inputProps = autocomplete.getInputProps({
+    inputElement: inputRef.current
+  })
+
   return (
     <form ref={formRef} {...formProps}>
       <div className="relative text-center border-slate-200">
-        <input className="" ref={inputRef} {...autocomplete.getInputProps()} />
+        <input className="p-2 rounded-full shadow focus:outline-none shadow-yellow-500" ref={inputRef} {...inputProps} />
         {
           autocompleteState.isOpen && (
-            <div ref={panelRef} {...autocomplete.getPanelProps()}>
+            <div ref={panelRef} {...autocomplete.getPanelProps()} className="z-40 overflow-hidden">
               {
                 autocompleteState.collections.map((collection, index) => {
                   const { items } = collection
 
                   return (
-                    <section key={index}>
+                    <section className="absolute" key={index}>
                       <ul {...autocomplete.getListProps()}>
                         {
                           items.map(item => <AutocompletItem key={item.id} {...item} />)

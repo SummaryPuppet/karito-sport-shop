@@ -11,7 +11,7 @@ export default function HomeItems(){
   },[])
 
   return (
-    <section className="px-4 grid lg:grid-cols-2 place-content-center gap-4">
+    <section className="px-4 py-3 grid lg:grid-cols-3 place-content-center gap-4">
       { homeProducts.map((result)=>(
         <Item key={result.id} {...result}  />
       )) }

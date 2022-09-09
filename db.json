@@ -2,15 +2,18 @@
   {
     "id": 1,
     "title": "Short con recogido y corrugado texturizado",
-    "description": "suple brasilero tela inteligente",
+    "description": "suplex brasilero tela inteligente",
     "talla": "estandar",
     "img": "/images/item01.jpeg",
-    "price": "S/85"
+    "price": "S/85",
+    "fichaTecnica": {
+  
+    }
   },
   {
     "id": 2,
     "title": "Short con recogido y corrugado texturizado",
-    "description": "suple brasilero tela inteligente",
+    "description": "suplex brasilero tela inteligente",
     "talla": "estandar",
     "img": "/images/item02.jpeg",
     "price": "S/85"
@@ -18,9 +21,33 @@
   {
     "id": 3,
     "title": "Short con recogido y corrugado texturizado",
-    "description": "suple brasilero tela inteligente",
+    "description": "suplex brasilero tela inteligente",
     "talla": "estandar",
     "img": "/images/item03.jpeg",
     "price": "S/85"
+  },
+  {
+    "id": 4,
+    "title": "Leggins Basicos",
+    "description": "suplex brasilero tela inteligente",
+    "talla": "S - M",
+    "img": "/images/item04.jpeg",
+    "price": "S/100"
+  },
+  {
+    "id": 5,
+    "title": "Leggins Basicos",
+    "description": "suplex brasilero tela inteligente",
+    "talla": "M - L",
+    "img": "/images/item05.jpeg",
+    "price": "S/100"
+  },
+  {
+    "id": 6,
+    "title": "Leggins Basicos",
+    "description": "suplex brasilero tela inteligente",
+    "talla": "S - M - L",
+    "img": "/images/item06.jpeg",
+    "price": "S/100"
   }
 ]
