@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Short con recogido y corrugado texturizado",
+    "description": "suple brasilero tela inteligente",
+    "talla": "estandar",
+    "img": "/images/item01.jpeg",
+    "price": "S/85"
+  },
+  {
+    "id": 2,
+    "title": "Short con recogido y corrugado texturizado",
+    "description": "suple brasilero tela inteligente",
+    "talla": "estandar",
+    "img": "/images/item02.jpeg",
+    "price": "S/85"
+  },
+  {
+    "id": 3,
+    "title": "Short con recogido y corrugado texturizado",
+    "description": "suple brasilero tela inteligente",
+    "talla": "estandar",
+    "img": "/images/item03.jpeg",
+    "price": "S/85"
+  }
+]
